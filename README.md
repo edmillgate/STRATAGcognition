@@ -1,9 +1,27 @@
-# STRATAG baseline cognitive analysis
+# STRATAG baseline cognitive pre-processing & analysis
 Code relating to the management and analysis of cognitive variables in the STRATA-G dataset
 
 The attached code was written for STATA15/SE and was produced by Mr Edward Millgate at the Department of Psychosis Studies, King's College London, United Kingdom. All code was accurate at the time of performing the analysis.
 
-1. STRATAG_Cognition_analysis_190521.do:
+
+1. STRATAG_Cognition_pre-processing_08102020.do:
+
+This code file is divided up as follows:
+
+i. The inversing of cognitive measures to make the direction of effect consistent
+
+ii. Generating standardised z-scores (to whole sample means) for each measure for each cognitive domain (1-7)
+
+iii. Generating cognitive domains using standardised scores (1-7)
+
+
+
+
+
+
+
+
+2. STRATAG_Cognition_analysis_190521.do:
 
 This code file is divided up as follows:
 
